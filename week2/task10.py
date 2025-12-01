@@ -2,7 +2,7 @@ import datetime
 import os
 # Using datetime, add a week and 12 hours to a date.  Given date: March 22, 2020, at 10:00 AM. print original date time and new date time
 d = datetime.datetime(2016, 7, 24, 12, 30, 45, 10000)
-tdelta = d + datetime.timedelta(weeks=1) + + datetime.timedelta(hours=12)
+tdelta = d + datetime.timedelta(weeks=1)  + datetime.timedelta(hours=12)
 print(tdelta)
 
 
